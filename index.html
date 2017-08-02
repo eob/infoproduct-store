@@ -9,7 +9,7 @@ layout: default
   <div>
     <h1>This eBook is being sold by a static site</h1>
     <p class="desc">Cloudstitch processes your Stripe payment form, saves the purchase to a spreadsheet, and emails your customer. No backed, no hassle.</p>
-    <form id="purchaseForm" action="{{site.data.cloudstitch.api_endpoint}}" method="POST">
+    <form id="purchaseForm" action="{{site.data.cloudstitch.api}}" method="POST">
       <noscript>You must <a href="http://www.enable-javascript.com" target="_blank">enable JavaScript</a> in your web browser in order to pay via Stripe.</noscript>
       <button 
         id="purchaseButton"
